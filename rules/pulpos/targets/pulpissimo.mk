@@ -58,6 +58,12 @@ PULP_SRCS     += kernel/fll-v$(fll/version).c
 PULP_SRCS     += kernel/freq-domains.c
 PULP_SRCS     += kernel/chips/pulpissimo/soc.c
 
+##MY_IP
+#PULP_SRCS			+= drivers/my_ip.c
+#PULP_SRCS			+= drivers/my_other_ip.c
+#
+##WIDE ALU IP
+#PULP_SRCS			+= drivers/wide_alu_driver.c
 
 include $(PULPRT_HOME)/rules/pulpos/configs/default.mk
 

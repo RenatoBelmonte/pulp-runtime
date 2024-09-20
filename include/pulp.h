@@ -28,6 +28,18 @@
 #include <hal/pulp.h>
 #include <data/data.h>
 
+////my_ip.h include
+//#include "my_ip.h"
+//#include "my_timer.h"
+
+//WIDE ALU include
+//#include "wide_alu.h"
+//#include "wide_alu_driver.h"
+
+// SPIKER
+#include "spiker_adapter.h"
+#include "spiker_adapter_driver.h"
+
 typedef enum {
   PI_FREQ_DOMAIN_FC     = 0,
   PI_FREQ_DOMAIN_CL     = 1,

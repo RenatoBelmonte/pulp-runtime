@@ -53,7 +53,11 @@
 
 #define ARCHI_FLL_AREA_SIZE          0x00000010
 
+/*
+ * WIDE ALU IP
+ */
 
+#define WIDE_ALU0_BASE_ADDR          0x1A400000
 
 
 /*
